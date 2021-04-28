@@ -10,7 +10,7 @@ function showData(){
       console.log(this.response)
     }
   }
-  xhttp.open('GET','https://jsonplaceholder.typicode.com/todos/1',true)
+  xhttp.open('GET','data.json',true)
   xhttp.send();
 }
 
